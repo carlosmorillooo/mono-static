@@ -1,0 +1,23 @@
+body{
+    background-color: #000E26;
+    margin: 0;
+}
+video{
+    width: 100%;
+    height: auto;
+}
+
+.mobile{
+    display:none;
+}
+
+@media (max-width: 768px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+}
